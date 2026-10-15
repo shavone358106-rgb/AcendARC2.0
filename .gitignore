@@ -1,0 +1,5 @@
+# Never commit real secrets
+keys/.env
+keys/*.key
+.env
+__pycache__/
