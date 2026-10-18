@@ -1,0 +1,6 @@
+# Required
+Pillow>=10.0
+faster-whisper>=1.0      # word-level timestamps for captions (downloads a small model on first run)
+# Optional
+anthropic>=0.70          # lets `shorts.py make` write scripts / plan / review frames outside Claude Code
+# rembg                  # clean face cutout on covers (large download; uncomment if you want it)

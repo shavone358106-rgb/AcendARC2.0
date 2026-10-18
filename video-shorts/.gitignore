@@ -1,0 +1,7 @@
+# rendered media and caches stay local
+workspace/shorts/*/**/*.mp4
+workspace/shorts/*/qa/frames/
+workspace/shorts/*/graphics/
+workspace/shorts/*/build/
+workspace/cache/
+__pycache__/

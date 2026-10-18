@@ -1,0 +1,12 @@
+{
+  "_comment": "Machine-readable twin of STYLE.md. Edit colors/fonts here; every short reads it.",
+  "dark":  {"bg": "#14100d", "bg2": "#2a1a10", "text": "#f6ece2", "muted": "#c9b6a6", "accent": "#ff7a3d", "panel": "#21170f"},
+  "light": {"bg": "#f4e9dc", "bg2": "#ead8c4", "text": "#2a1710", "muted": "#7a5a48", "accent": "#e2551b", "panel": "#fbf3ea"},
+  "fonts": {"title": null, "body": null, "mono": null},
+  "caption": {"size": 88, "max_words": 2, "uppercase": false, "outline": 7},
+  "grain": 10,
+  "music_volume": 0.12,
+  "sfx_volume": 0.35,
+  "target_seconds": 32,
+  "loudness_lufs": -14
+}
