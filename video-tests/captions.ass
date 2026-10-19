@@ -1,0 +1,31 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Inter ExtraBold,92,&H00FFFFFF,&H00FFFFFF,&H003A1F0B,&H80000000,-1,0,0,0,100,100,0,0,1,6,3,5,90,90,0,1
+Style: Tag,Inter SemiBold,40,&H0000B7F5,&H0000B7F5,&H003A1F0B,&H00000000,0,0,0,0,100,100,4,0,1,0,0,8,60,60,140,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:07.00,Tag,,0,0,0,,VIDEO EDITOR TEST
+Dialogue: 1,0:00:00.30,0:00:00.67,Cap,,0,0,0,,{\pos(540,1150)}{\c&H0000B7F5\fscx108\fscy108}This{\c&H00FFFFFF\fscx100\fscy100} is a\Nseven second test
+Dialogue: 1,0:00:00.67,0:00:01.03,Cap,,0,0,0,,{\pos(540,1150)}This {\c&H0000B7F5\fscx108\fscy108}is{\c&H00FFFFFF\fscx100\fscy100} a\Nseven second test
+Dialogue: 1,0:00:01.03,0:00:01.40,Cap,,0,0,0,,{\pos(540,1150)}This is {\c&H0000B7F5\fscx108\fscy108}a{\c&H00FFFFFF\fscx100\fscy100}\Nseven second test
+Dialogue: 1,0:00:01.40,0:00:01.77,Cap,,0,0,0,,{\pos(540,1150)}This is a\N{\c&H0000B7F5\fscx108\fscy108}seven{\c&H00FFFFFF\fscx100\fscy100} second test
+Dialogue: 1,0:00:01.77,0:00:02.13,Cap,,0,0,0,,{\pos(540,1150)}This is a\Nseven {\c&H0000B7F5\fscx108\fscy108}second{\c&H00FFFFFF\fscx100\fscy100} test
+Dialogue: 1,0:00:02.13,0:00:02.50,Cap,,0,0,0,,{\pos(540,1150)}This is a\Nseven second {\c&H0000B7F5\fscx108\fscy108}test{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 1,0:00:02.60,0:00:03.04,Cap,,0,0,0,,{\pos(540,1150)}{\c&H0000B7F5\fscx108\fscy108}Captions{\c&H00FFFFFF\fscx100\fscy100} in your\Nbrand style
+Dialogue: 1,0:00:03.04,0:00:03.48,Cap,,0,0,0,,{\pos(540,1150)}Captions {\c&H0000B7F5\fscx108\fscy108}in{\c&H00FFFFFF\fscx100\fscy100} your\Nbrand style
+Dialogue: 1,0:00:03.48,0:00:03.92,Cap,,0,0,0,,{\pos(540,1150)}Captions in {\c&H0000B7F5\fscx108\fscy108}your{\c&H00FFFFFF\fscx100\fscy100}\Nbrand style
+Dialogue: 1,0:00:03.92,0:00:04.36,Cap,,0,0,0,,{\pos(540,1150)}Captions in your\N{\c&H0000B7F5\fscx108\fscy108}brand{\c&H00FFFFFF\fscx100\fscy100} style
+Dialogue: 1,0:00:04.36,0:00:04.80,Cap,,0,0,0,,{\pos(540,1150)}Captions in your\Nbrand {\c&H0000B7F5\fscx108\fscy108}style{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 1,0:00:04.90,0:00:05.22,Cap,,0,0,0,,{\pos(540,1150)}{\c&H0000B7F5\fscx108\fscy108}Ready{\c&H00FFFFFF\fscx100\fscy100} to edit\Nyour first video?
+Dialogue: 1,0:00:05.22,0:00:05.53,Cap,,0,0,0,,{\pos(540,1150)}Ready {\c&H0000B7F5\fscx108\fscy108}to{\c&H00FFFFFF\fscx100\fscy100} edit\Nyour first video?
+Dialogue: 1,0:00:05.53,0:00:05.85,Cap,,0,0,0,,{\pos(540,1150)}Ready to {\c&H0000B7F5\fscx108\fscy108}edit{\c&H00FFFFFF\fscx100\fscy100}\Nyour first video?
+Dialogue: 1,0:00:05.85,0:00:06.17,Cap,,0,0,0,,{\pos(540,1150)}Ready to edit\N{\c&H0000B7F5\fscx108\fscy108}your{\c&H00FFFFFF\fscx100\fscy100} first video?
+Dialogue: 1,0:00:06.17,0:00:06.48,Cap,,0,0,0,,{\pos(540,1150)}Ready to edit\Nyour {\c&H0000B7F5\fscx108\fscy108}first{\c&H00FFFFFF\fscx100\fscy100} video?
+Dialogue: 1,0:00:06.48,0:00:06.80,Cap,,0,0,0,,{\pos(540,1150)}Ready to edit\Nyour first {\c&H0000B7F5\fscx108\fscy108}video?{\c&H00FFFFFF\fscx100\fscy100}
