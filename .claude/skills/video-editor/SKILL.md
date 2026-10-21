@@ -79,6 +79,10 @@ before making anything generic:
 | **Pinterest** | owner shares pins or boards | **mood and style reference only**; never put someone else's pin in a video |
 | Figma / other design apps | `figma` skill or exported files | designed frames, icons |
 
+For effects (caption styles, transitions, zooms, overlays), check `effects/README.md` first:
+it lists every effect already available and the ones added from reference videos. New effects
+copied from a reference video go in `effects/`, one file each, with no duplicates.
+
 Anything pulled from Pinterest or the web is someone else's work. Use it as a reference
 unless the owner confirms they have the rights to it. Generated assets (Higgsfield, HeyGen)
 spend the owner's credits, so say what you'll generate and roughly what it costs before you run it.
