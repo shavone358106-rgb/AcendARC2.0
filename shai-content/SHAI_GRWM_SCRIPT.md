@@ -51,4 +51,9 @@
 | `images/02_westminster_coffee.png` | Morning coffee walk, Westminster |
 | `images/03_rooftop_evening.png` | Blue-hour rooftop, London Eye |
 | `video/01_grwm_hook.mp4` | 15 s talking hook (0–8 s of the script, delivered a little slower), native audio. Higgsfield Kling 3.0. The model dropped "in Soho" from line 2. |
-| HeyGen clip (8–24 s beats) | Lip-synced skin-prep beat in the HeyGen dashboard: "Shai GRWM - skin prep beat" |
+| `video/02_heygen_skin_prep.mp4` | 16 s lip-synced skin-prep beat (8–24 s of the script). HeyGen, free plan, so it has a HeyGen watermark bottom right. |
+| `video/03_westminster_close.mp4` | 15 s closing beat: walk past the phone box, "Boardroom by day, London by night. Same soul. Different city." + CTA. Higgsfield Kling 3.0. |
+| `video/SHAI_GRWM_FULL_captioned.mp4` | **Final cut, 44 s:** all three clips joined, loudness-matched, first 2.6 s of dead air trimmed, word-by-word burned captions. Ready to post. |
+| `video/SHAI_GRWM_FULL_clean.mp4` | Same cut without captions, for adding captions or music in CapCut / TikTok. |
+
+**Changes from the script:** the rooftop closing scene was blocked by Higgsfield's safety filter (credits refunded), so the payoff and CTA now play on the Westminster walk. "Rooftop by night" became "London by night". The matcha/AI-assistant and bronzer beats (32–48 s) aren't filmed yet; that's why the final cut runs 44 s instead of 60.
