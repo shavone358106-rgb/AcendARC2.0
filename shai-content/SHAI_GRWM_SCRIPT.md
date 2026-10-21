@@ -56,4 +56,8 @@
 | `video/SHAI_GRWM_FULL_captioned.mp4` | **Final cut, 44 s:** all three clips joined, loudness-matched, first 2.6 s of dead air trimmed, word-by-word burned captions. Ready to post. |
 | `video/SHAI_GRWM_FULL_clean.mp4` | Same cut without captions, for adding captions or music in CapCut / TikTok. |
 
+**v2 polish (final cut):**
+- **One voice throughout.** The opening hook's upbeat voice is the reference. The HeyGen middle and the Westminster ending were converted to it with OpenVoice V2 (open-source voice conversion, run locally). Similarity to the hook voice went from 0.32 → 0.83 (middle) and 0.73 → 0.83 (end), with timing kept to within 3 ms, so lip sync and captions still line up.
+- **Directional daylight grade.** Lifted exposure, a cooler daylight white balance, a soft light falloff from the window side, and a key-light glow on her face so she's the brightest point in the frame. The far side of the room falls slightly into shade.
+
 **Changes from the script:** the rooftop closing scene was blocked by Higgsfield's safety filter (credits refunded), so the payoff and CTA now play on the Westminster walk. "Rooftop by night" became "London by night". The matcha/AI-assistant and bronzer beats (32–48 s) aren't filmed yet; that's why the final cut runs 44 s instead of 60.
