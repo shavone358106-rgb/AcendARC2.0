@@ -58,6 +58,7 @@
 
 **v2 polish (final cut):**
 - **One voice throughout.** The opening hook's upbeat voice is the reference. The HeyGen middle and the Westminster ending were converted to it with OpenVoice V2 (open-source voice conversion, run locally). Similarity to the hook voice went from 0.32 → 0.83 (middle) and 0.73 → 0.83 (end), with timing kept to within 3 ms, so lip sync and captions still line up.
+- **No HeyGen footage (v3).** The middle 16 s no longer uses the watermarked HeyGen video. It's rebuilt from footage that never had a watermark: the unused opening concealer taps from the Kling hook (slowed, punched in), then slow push-ins on the vanity still (serums at 16–20 s, face and freckles at 20–24 s), then a tight shot of the hand tapping under the eye. Shai's matched voice plays as a voiceover. `video/02_heygen_skin_prep.mp4` is kept only as a source file; don't post it.
 - **Directional daylight grade.** Lifted exposure, a cooler daylight white balance, a soft light falloff from the window side, and a key-light glow on her face so she's the brightest point in the frame. The far side of the room falls slightly into shade.
 
 **Changes from the script:** the rooftop closing scene was blocked by Higgsfield's safety filter (credits refunded), so the payoff and CTA now play on the Westminster walk. "Rooftop by night" became "London by night". The matcha/AI-assistant and bronzer beats (32–48 s) aren't filmed yet; that's why the final cut runs 44 s instead of 60.
