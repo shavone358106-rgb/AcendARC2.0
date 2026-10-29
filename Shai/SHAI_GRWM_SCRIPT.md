@@ -44,21 +44,40 @@
 > London girl GRWM: boardroom by day, rooftop by night ☕🌃 Freckles stay. Comment LONDON for the full product list.
 > #GRWM #LondonGirl #DayInMyLife #BlackGirlMakeup #SoftLife #AIcreator #LondonLife #MakeupRoutine
 
-## Assets in this folder
-| File | Use |
+## Folder layout
+```
+Shai/
+├── SHAI_GRWM_SCRIPT.md          ← this file: hook, script, edit plan, caption
+├── images/
+│   ├── raw/                     ← source material
+│   ├── in-progress/             ← test shots and rejected attempts
+│   └── finalized/               ← ready-to-post stills
+└── videos/
+    ├── raw-footage/             ← clips straight out of Higgsfield / HeyGen
+    ├── in-progress/             ← edited sections and work-in-progress cuts
+    └── finalized/               ← ready-to-post videos
+```
+
+| File | What it is |
 |---|---|
-| `images/01_grwm_vanity.png` | Vanity / concealer still (start frame of the video) |
-| `images/02_westminster_coffee.png` | Morning coffee walk, Westminster |
-| `images/03_rooftop_evening.png` | Blue-hour rooftop, London Eye |
-| `video/01_grwm_hook.mp4` | 15 s talking hook (0–8 s of the script, delivered a little slower), native audio. Higgsfield Kling 3.0. The model dropped "in Soho" from line 2. |
-| `video/02_heygen_skin_prep.mp4` | 16 s lip-synced skin-prep beat (8–24 s of the script). HeyGen, free plan, so it has a HeyGen watermark bottom right. |
-| `video/03_westminster_close.mp4` | 15 s closing beat: walk past the phone box, "Boardroom by day, London by night. Same soul. Different city." + CTA. Higgsfield Kling 3.0. |
-| `video/SHAI_GRWM_FULL_captioned.mp4` | **Final cut, 44 s:** all three clips joined, loudness-matched, first 2.6 s of dead air trimmed, word-by-word burned captions. Ready to post. |
-| `video/SHAI_GRWM_FULL_clean.mp4` | Same cut without captions, for adding captions or music in CapCut / TikTok. |
+| `images/raw/character_sheet_original.webp` | The original "London Era" character sheet |
+| `images/raw/reference_portrait_crop.webp` | Face crop from the sheet, used as the identity reference for every generation |
+| `images/in-progress/rejected_first_attempt_soul2_*.jpg` | First attempt (Higgsfield Soul 2.0): copied the sheet's poster text, face drifted. Rejected. |
+| `images/in-progress/lighting_grade_before_after.jpg` | Daylight grade test: top row before, bottom row after |
+| `images/finalized/01_grwm_vanity.png` | Vanity / concealer still (start frame of the hook video) |
+| `images/finalized/02_westminster_coffee.png` | Morning coffee walk, Westminster (start frame of the closing video) |
+| `images/finalized/03_rooftop_evening.png` | Blue-hour rooftop, London Eye |
+| `videos/raw-footage/01_grwm_hook_kling.mp4` | 15 s talking hook, native audio. Higgsfield Kling 3.0. The model dropped "in Soho" from line 2. |
+| `videos/raw-footage/02_skin_prep_heygen_WATERMARKED_do_not_post.mp4` | 16 s lip-synced skin-prep beat. HeyGen free plan, so it has a watermark. Its voice track was used; its footage is not in the final cut. |
+| `videos/raw-footage/03_westminster_close_kling.mp4` | 15 s closing walk + CTA. Higgsfield Kling 3.0. |
+| `videos/in-progress/middle_section_broll_with_matched_voice.mp4` | Rebuilt 16 s middle section: clean B-roll + Shai's matched voice, graded |
+| `videos/in-progress/full_cut_graded_untrimmed_no_captions.mp4` | All three sections joined and graded, before the 2.6 s trim and captions |
+| `videos/finalized/SHAI_GRWM_FULL_captioned.mp4` | **Final cut, 44 s, ready to post:** one voice throughout, daylight grade, burned-in captions, no watermark |
+| `videos/finalized/SHAI_GRWM_FULL_no_captions.mp4` | Same cut without captions, for adding your own captions or music in CapCut / TikTok |
 
 **v2 polish (final cut):**
 - **One voice throughout.** The opening hook's upbeat voice is the reference. The HeyGen middle and the Westminster ending were converted to it with OpenVoice V2 (open-source voice conversion, run locally). Similarity to the hook voice went from 0.32 → 0.83 (middle) and 0.73 → 0.83 (end), with timing kept to within 3 ms, so lip sync and captions still line up.
-- **No HeyGen footage (v3).** The middle 16 s no longer uses the watermarked HeyGen video. It's rebuilt from footage that never had a watermark: the unused opening concealer taps from the Kling hook (slowed, punched in), then slow push-ins on the vanity still (serums at 16–20 s, face and freckles at 20–24 s), then a tight shot of the hand tapping under the eye. Shai's matched voice plays as a voiceover. `video/02_heygen_skin_prep.mp4` is kept only as a source file; don't post it.
+- **No HeyGen footage (v3).** The middle 16 s no longer uses the watermarked HeyGen video. It's rebuilt from footage that never had a watermark: the unused opening concealer taps from the Kling hook (slowed, punched in), then slow push-ins on the vanity still (serums at 16–20 s, face and freckles at 20–24 s), then a tight shot of the hand tapping under the eye. Shai's matched voice plays as a voiceover. The HeyGen clip is kept in `videos/raw-footage/` only as a source file; don't post it.
 - **Directional daylight grade.** Lifted exposure, a cooler daylight white balance, a soft light falloff from the window side, and a key-light glow on her face so she's the brightest point in the frame. The far side of the room falls slightly into shade.
 
 **Changes from the script:** the rooftop closing scene was blocked by Higgsfield's safety filter (credits refunded), so the payoff and CTA now play on the Westminster walk. "Rooftop by night" became "London by night". The matcha/AI-assistant and bronzer beats (32–48 s) aren't filmed yet; that's why the final cut runs 44 s instead of 60.
